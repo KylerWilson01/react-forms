@@ -1,0 +1,49 @@
+.wrapper {
+  width: 800px;
+  margin: auto;
+  font-size: 24px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  font-size: 24px;
+  border: 1px solid white;
+  background: transparent;
+  padding: 10px;
+  margin: 10px 0;
+  color: white;
+  outline: none;
+}
+
+input.error {
+  border: 1px solid red;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 24px;
+  padding: 25px 10px;
+  width: 25%;
+  color: white;
+  align-self: center;
+}
+
+.thanks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
